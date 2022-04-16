@@ -4,6 +4,8 @@
   align-items: center;
   flex-direction: column;
   background-color: #151518;
+  padding: 0 20px;
+  height: 100vh;
 }
 
 .app_header,
@@ -98,12 +100,18 @@
     }
   }
 
-  .background_logo {
-    height: 406px;
-    width: 406px;
+  .background_logo_wrapper {
+    max-width: 1200px;
+    width: 100%;
     position: absolute;
-    right: 0;
-    top: 100px;
+
+    .background_logo {
+      height: 350px;
+      width: 350px;
+      right: 0;
+      top: 100px;
+      position: absolute;
+    }
   }
 
   .products {
@@ -264,6 +272,17 @@
         margin: unset;
       }
     }
+  }
+
+  .app_body {
+    .background_logo_wrapper {
+
+      .background_logo {
+        height: 406px;
+        width: 406px;
+      }
+    }
+
   }
 
   .mySwiper {

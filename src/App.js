@@ -71,7 +71,7 @@ function App() {
                 <p>We deliver the highest quality mails for the best prices on the market.</p>
                 <button className={styles.explore_btn} onClick={scrollToProducts}>Explore products</button>
             </div>
-            <div className={styles.background_logo}><img src={process.env.PUBLIC_URL + '/img/backgroundLazy.png'} alt="background logo"/></div>
+            <div className={styles.background_logo_wrapper}><img className={styles.background_logo} src={process.env.PUBLIC_URL + '/img/backgroundLazy.png'} alt="background logo"/></div>
             <div ref={myRef} className={styles.products}>
                 <h2>Our inventory</h2>
                 <Swiper
