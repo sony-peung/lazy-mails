@@ -1,9 +1,3 @@
-// import logo from './lazymailslogo.svg';
-// import twitterlogo from '../public/img/twitterlogo.svg';
-// import discord from '../public/img/discord.svg';
-// import rectangletwitter from '../public/img/rectangletwitter.svg';
-// import rectanglediscord from '../public/img/rectanglediscord.svg';
-// import background from '../public/img/backgroundLazy.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/scss';
 import 'swiper/scss/navigation';

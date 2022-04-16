@@ -1,7 +1,15 @@
-.App {
+.app {
   text-align: center;
   display: flex;
+  align-items: center;
   flex-direction: column;
+  background-color: #151518;
+}
+
+.app_header,
+.app_footer,
+.app_body {
+  width: 100%;
 }
 
 .app_header {
@@ -20,6 +28,7 @@
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
+    max-width: 1200px;
 
     li {
       display: flex;
@@ -54,12 +63,16 @@
   padding: 0 20px;
   background-color: #1E1C1F;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   .intro {
     text-align: center;
     height: 402px;
     position: relative;
     z-index: 2;
+    max-width: 1200px;
 
     h2 {
       padding-top: 43px;
@@ -99,6 +112,7 @@
     height: 403px;
     position: relative;
     z-index: 2;
+    max-width: 1200px;
 
     h2 {
       margin-bottom: 30px;
@@ -127,11 +141,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 
   .footerWrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
 
     .leftFooter,
     .rightFooter {
