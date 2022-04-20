@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.c77d555d.css",
-    "main.js": "/static/js/main.cbf82e0e.js",
-    "static/js/787.381e731d.chunk.js": "/static/js/787.381e731d.chunk.js",
-    "index.html": "/index.html",
-    "main.c77d555d.css.map": "/static/css/main.c77d555d.css.map",
-    "main.cbf82e0e.js.map": "/static/js/main.cbf82e0e.js.map",
-    "787.381e731d.chunk.js.map": "/static/js/787.381e731d.chunk.js.map"
+    "main.css": "/lazy-mails/static/css/main.c77d555d.css",
+    "main.js": "/lazy-mails/static/js/main.ec97c983.js",
+    "static/js/787.381e731d.chunk.js": "/lazy-mails/static/js/787.381e731d.chunk.js",
+    "index.html": "/lazy-mails/index.html",
+    "main.c77d555d.css.map": "/lazy-mails/static/css/main.c77d555d.css.map",
+    "main.ec97c983.js.map": "/lazy-mails/static/js/main.ec97c983.js.map",
+    "787.381e731d.chunk.js.map": "/lazy-mails/static/js/787.381e731d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c77d555d.css",
-    "static/js/main.cbf82e0e.js"
+    "static/js/main.ec97c983.js"
   ]
 }
