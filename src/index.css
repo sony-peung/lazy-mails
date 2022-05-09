@@ -50,7 +50,7 @@ button {
   color: #DD751C !important;
 }
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 650px) {
   .swiper-slide li {
     border-color: rgba(255, 255, 255, 0.15);
   }

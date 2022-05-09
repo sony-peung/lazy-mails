@@ -7,7 +7,6 @@ import styles from './App.module.scss';
 import {useRef} from "react";
 import { Navigation } from "swiper";
 
-
 function LazyMails() {
     return (
         <>
@@ -85,8 +84,8 @@ function App() {
                         320: {
                             slidesPerView: 1,
                         },
-                        550: {
-                            slidesPerView: 2,
+                        650: {
+                            slidesPerView: 3,
                         },
                     }}
                 >
